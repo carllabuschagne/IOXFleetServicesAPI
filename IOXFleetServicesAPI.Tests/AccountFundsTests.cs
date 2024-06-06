@@ -8,8 +8,11 @@ namespace IOXFleetServicesAPI.Tests
         [Fact]
         public void HasSufficientFundsCheck_HasSufficientFunds()
         {
+            //Function
+            Validations validations = new Validations();
+
             //act
-            bool actual = Validations.HasSufficientFundsCheck(1000, 500);
+            bool actual = validations.HasSufficientFundsCheck(1000, 500);
 
             //assert
             Assert.True(actual, $"{actual} should be true");
@@ -18,8 +21,11 @@ namespace IOXFleetServicesAPI.Tests
         [Fact]
         public void HasSufficientFundsCheck_HasNotSufficientFunds()
         {
+            //Function
+            Validations validations = new Validations();
+
             //act
-            bool actual = Validations.HasSufficientFundsCheck(500, 1000);
+            bool actual = validations.HasSufficientFundsCheck(500, 1000);
 
             //assert
             Assert.False(actual, $"{actual} should be false");
