@@ -191,12 +191,12 @@ public class CoreModel
 ![Static Badge](https://img.shields.io/badge/Request--darkgreeen)
 ```json
 {
-  "firstName": "David",
-  "lastName": "Hasselhoff",
-  "idNumber": "8503175086086",
-  "password": "qwe123",
-  "email": "carl@carllabuschagne.com",
-  "accountNumber": "LAB0001"
+	"firstName": "David",
+	"lastName": "Hasselhoff",
+	"idNumber": "8503175086086",
+	"password": "qwe123",
+	"email": "carl@carllabuschagne.com",
+	"accountNumber": "LAB0001"
 }
 ```
 ![Static Badge](https://img.shields.io/badge/Created-201-darkgreeen)
@@ -234,8 +234,8 @@ public class CoreModel
 REQUEST
 ```json
 {
-  "accountNumber": "LAB0001",
-  "amount": 200
+	"accountNumber": "LAB0001",
+	"amount": 200
 }
 ```
 ![Static Badge](https://img.shields.io/badge/Created-201-darkgreeen)
@@ -273,8 +273,8 @@ REQUEST
 REQUEST
 ```json
 {
-  "accountNumber": "LAB0001",
-  "plateNumber": "AB12DFGP"
+	"accountNumber": "LAB0001",
+	"plateNumber": "AB12DFGP"
 }
 ```
 ![Static Badge](https://img.shields.io/badge/Created-201-darkgreeen)
@@ -312,8 +312,8 @@ REQUEST
 REQUEST
 ```json
 {
-  "accountNumber": "LAB0001",
-  "quoteNumber": "AB12DFGP20246612456"
+	"accountNumber": "LAB0001",
+	"quoteNumber": "AB12DFGP20246612456"
 }
 ```
 ![Static Badge](https://img.shields.io/badge/OK-201-darkgreeen)
@@ -368,13 +368,13 @@ REQUEST
 REQUEST
 ```json
 {
-  "accountNumber": "LAB0001",
-  "vin": "AAAA12388872",
-  "licenseNumber": "44441991817",
-  "plateNumber": "KL45ZZGP",
-  "licenseExpiry": "2025-06-05T14:59:24.911Z",
-  "model": "BMW Coupe",
-  "color": "White"
+	"accountNumber": "LAB0001",
+	"vin": "AAAA12388872",
+	"licenseNumber": "44441991817",
+	"plateNumber": "KL45ZZGP",
+	"licenseExpiry": "2025-06-05T14:59:24.911Z",
+	"model": "BMW Coupe",
+	"color": "White"
 }
 ```
 ![Static Badge](https://img.shields.io/badge/Created-201-darkgreeen)
@@ -421,10 +421,10 @@ REQUEST
 REQUEST
 ```json
 {
-  "accountNumber": "LAB0001",
-  "filter": "blue",
-  "pageNumber": 1,
-  "pageSize": 10
+	"accountNumber": "LAB0001",
+	"filter": "blue",
+	"pageNumber": 1,
+	"pageSize": 10
 }
 ```
 ![Static Badge](https://img.shields.io/badge/Created-200-darkgreeen)
