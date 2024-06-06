@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOXFleetServicesAPI", "IOXFleetServicesAPI\IOXFleetServicesAPI.csproj", "{8CA6B0E7-F654-4814-84DA-94C8652F7C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOXFleetServicesAPI.Shared", "IOXFleetServicesAPI.Shared\IOXFleetServicesAPI.Shared.csproj", "{F75B8311-C479-46DD-8AA2-12749D053785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOXFleetServicesAPI.Tests", "IOXFleetServicesAPI.Tests\IOXFleetServicesAPI.Tests.csproj", "{2546465B-CE5D-43BD-8556-D81A84D3B7A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA6B0E7-F654-4814-84DA-94C8652F7C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA6B0E7-F654-4814-84DA-94C8652F7C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA6B0E7-F654-4814-84DA-94C8652F7C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA6B0E7-F654-4814-84DA-94C8652F7C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F75B8311-C479-46DD-8AA2-12749D053785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F75B8311-C479-46DD-8AA2-12749D053785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F75B8311-C479-46DD-8AA2-12749D053785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F75B8311-C479-46DD-8AA2-12749D053785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2546465B-CE5D-43BD-8556-D81A84D3B7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2546465B-CE5D-43BD-8556-D81A84D3B7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2546465B-CE5D-43BD-8556-D81A84D3B7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2546465B-CE5D-43BD-8556-D81A84D3B7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2B55B65-C890-46CF-916C-D735E1EEEDC8}
+	EndGlobalSection
+EndGlobal
