@@ -68,7 +68,7 @@ namespace IOXFleetServicesAPI.QueryCommands
 
                 Validations validations = new Validations();
 
-                if (validations.HasSufficientFundsCheck(account.TotalAmount, quote.Amount))
+                if (!validations.HasSufficientFundsCheck(account.TotalAmount, quote.Amount))
                 {
                     _logger.Error($"{DOMAIN} - Insufficient funds for: {request.QuoteNumber}");
 
@@ -106,22 +106,22 @@ namespace IOXFleetServicesAPI.QueryCommands
 
                 if (status > 0)
                 {
-                    _logger.Information($"{DOMAIN} - RenewLicense created {JsonConvert.SerializeObject(account)}");
+                    _logger.Information($"{DOMAIN} - License has been renewed for {JsonConvert.SerializeObject(account)}");
 
                     return new CustomResponseMessage<bool>()
                     {
                         MessageCode = (int)HttpStatusCode.Created,
-                        Message = $"RenewLicense created for: {request.AccountNumber}",
+                        Message = $"License has been renewed for: {request.AccountNumber}",
                     };
                 }
                 else
                 {
-                    _logger.Error($"{DOMAIN} - RenewLicense not created {JsonConvert.SerializeObject(account)}");
+                    _logger.Error($"{DOMAIN} - License has been renewed for {JsonConvert.SerializeObject(account)}");
 
                     return new CustomResponseMessage<bool>()
                     {
                         MessageCode = (int)HttpStatusCode.InternalServerError,
-                        Message = $"RenewLicense not created for: {request.AccountNumber}",
+                        Message = $"License has not been renewed for: {request.AccountNumber}",
                     };
                 }
 

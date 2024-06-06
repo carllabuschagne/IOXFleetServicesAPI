@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOXFleetServicesAPI", "IOXF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOXFleetServicesAPI.Shared", "IOXFleetServicesAPI.Shared\IOXFleetServicesAPI.Shared.csproj", "{F75B8311-C479-46DD-8AA2-12749D053785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOXFleetServicesAPI.Tests", "IOXFleetServicesAPI.Tests\IOXFleetServicesAPI.Tests.csproj", "{2546465B-CE5D-43BD-8556-D81A84D3B7A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOXFleetServicesAPI.Tests", "IOXFleetServicesAPI.Tests\IOXFleetServicesAPI.Tests.csproj", "{2546465B-CE5D-43BD-8556-D81A84D3B7A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{311923FA-75B6-48E2-95F3-23A8B81B639B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
